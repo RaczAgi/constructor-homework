@@ -5,5 +5,11 @@ public class Main {
 
         Car defaultCar = new Car();
         System.out.println(defaultCar.getModel()); // Output: Unknown
+
+        BankAccount people1 = new BankAccount();
+        System.out.println(people1.getAccountNumber() +" bankszámlaszám: "
+                + people1.getAccountHolder() + " név "
+                + people1.getbalance() + " összeg ");
+
     }
 }
