@@ -12,7 +12,7 @@ public class BankAccount {
 
     }
     public BankAccount() {
-
+        this("unknown", "unknown", 20000);
     }
     public String getAccountNumber() {
         return accountNumber;
