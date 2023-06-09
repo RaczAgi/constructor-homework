@@ -12,9 +12,17 @@ public class Main {
         System.out.println(people1.getbalance());
 
         BankAccount people2 = new BankAccount("23456789", "Pénzes Jánosné", 50000);
-        System.out.println(people1.getAccountHolder());
+        System.out.println(people2.getAccountHolder());
         System.out.println(people2.getAccountNumber());
-        System.out.println(people1.getbalance());
+        System.out.println(people2.getbalance());
+
+        BankAccount defaultAccount = new BankAccount();
+        System.out.println(defaultAccount.getbalance());
+
+        BankAccount newBalance = new BankAccount(10000.00);
+        System.out.println(newBalance.getbalance());
+
+
 
 
     }

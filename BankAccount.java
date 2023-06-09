@@ -11,9 +11,13 @@ public class BankAccount {
         this.balance = balance;
 
     }
+    public BankAccount(double balance) {
+        this.balance = balance;
+    }
     public BankAccount() {
         this("unknown", "unknown", 20000);
     }
+
     public String getAccountNumber() {
         return accountNumber;
     }
