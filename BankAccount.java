@@ -5,6 +5,15 @@ public class BankAccount {
     private double balance;
 
 
+    public BankAccount(String accountNumber, String accountHolder, double balance) {
+        this.accountNumber = accountNumber;
+        this.accountHolder = accountHolder;
+        this.balance = balance;
+
+    }
+    public BankAccount() {
+
+    }
     public String getAccountNumber() {
         return accountNumber;
     }
@@ -18,7 +27,7 @@ public class BankAccount {
     }
 
     public void setAccountHolder(String accountHolder) {
-        this.accountNumber = accountHolder;
+        this.accountHolder = accountHolder;
     }
 
     public Double getbalance() {
@@ -28,5 +37,6 @@ public class BankAccount {
     public void setBalance(Double balance) {
         this.balance = balance;
     }
+
 
 }
